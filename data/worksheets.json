@@ -1,0 +1,104 @@
+{
+  "types": [
+    {
+      "slug": "addition-worksheets",
+      "op": "+",
+      "title": "Addition Worksheets",
+      "emoji": "➕",
+      "grade": "Kindergarten – Grade 3",
+      "desc": "Free printable addition worksheets with answer keys. Choose sums to 10, 20, 100 or 3-digit, set how many problems, then print or save as a PDF.",
+      "blurb": "Printable addition practice you can generate on demand. Pick the number range that fits the grade — single-digit sums to 10 for early learners, up to 3-digit addition for older kids — set the problem count, and print. Every sheet comes with a matching answer key.",
+      "skill": "Builds addition fluency from basic facts to multi-digit column addition. Sums to 10 and 20 suit Kindergarten through Grade 1; sums to 100 and 3-digit addition suit Grades 2–3.",
+      "levels": [
+        { "value": "to10", "label": "Sums to 10", "min": 0, "max": 10 },
+        { "value": "to20", "label": "Sums to 20", "min": 0, "max": 20, "default": true },
+        { "value": "to100", "label": "2-digit (to 100)", "min": 10, "max": 99 },
+        { "value": "to1000", "label": "3-digit (to 999)", "min": 100, "max": 999 }
+      ]
+    },
+    {
+      "slug": "subtraction-worksheets",
+      "op": "-",
+      "title": "Subtraction Worksheets",
+      "emoji": "➖",
+      "grade": "Kindergarten – Grade 3",
+      "desc": "Free printable subtraction worksheets with answer keys. Choose within 10, 20, 100 or 3-digit, set the problem count, then print or save as a PDF.",
+      "blurb": "Printable subtraction practice with no negative answers — the larger number always comes first. Pick a number range, choose how many problems you want, and print a clean sheet plus its answer key.",
+      "skill": "Practices take-away and difference facts. Within 10 and within 20 fit Kindergarten–Grade 1; within 100 and 3-digit subtraction fit Grades 2–3.",
+      "levels": [
+        { "value": "within10", "label": "Within 10", "min": 0, "max": 10 },
+        { "value": "within20", "label": "Within 20", "min": 0, "max": 20, "default": true },
+        { "value": "within100", "label": "2-digit (within 100)", "min": 10, "max": 99 },
+        { "value": "within1000", "label": "3-digit (within 999)", "min": 100, "max": 999 }
+      ]
+    },
+    {
+      "slug": "multiplication-worksheets",
+      "op": "×",
+      "title": "Multiplication Worksheets",
+      "emoji": "✖️",
+      "grade": "Grade 2 – Grade 5",
+      "desc": "Free printable multiplication worksheets with answer keys. Practice facts 0–10, 0–12, or 2-digit × 1-digit, set the count, then print or save as a PDF.",
+      "blurb": "Printable multiplication practice from basic facts to 2-digit × 1-digit. Choose the fact range, set how many problems, and print a worksheet with a matching answer key — great for daily drills.",
+      "skill": "Builds multiplication fact fluency and multi-digit multiplication. Facts 0–10 and 0–12 fit Grades 2–4; 2-digit × 1-digit fits Grades 4–5.",
+      "levels": [
+        { "value": "f10", "label": "Facts 0–10", "aMin": 0, "aMax": 10, "bMin": 0, "bMax": 10, "default": true },
+        { "value": "f12", "label": "Facts 0–12", "aMin": 0, "aMax": 12, "bMin": 0, "bMax": 12 },
+        { "value": "d2x1", "label": "2-digit × 1-digit", "aMin": 11, "aMax": 99, "bMin": 2, "bMax": 9 }
+      ]
+    },
+    {
+      "slug": "division-worksheets",
+      "op": "÷",
+      "title": "Division Worksheets",
+      "emoji": "➗",
+      "grade": "Grade 3 – Grade 5",
+      "desc": "Free printable division worksheets with answer keys. Every problem divides evenly (no remainders). Choose the range, set the count, then print or save as a PDF.",
+      "blurb": "Printable division practice where every problem divides evenly — no remainders to trip kids up. Pick the divisor and quotient range, set the problem count, and print with a full answer key.",
+      "skill": "Practices division facts as the inverse of multiplication, with whole-number answers. Facts within 10 and 12 fit Grades 3–4; long-division-style 2-digit quotients fit Grades 4–5.",
+      "levels": [
+        { "value": "within10", "label": "Divisors 1–10", "bMin": 1, "bMax": 10, "qMin": 1, "qMax": 10, "default": true },
+        { "value": "within12", "label": "Divisors 1–12", "bMin": 1, "bMax": 12, "qMin": 1, "qMax": 12 },
+        { "value": "long", "label": "2-digit quotients", "bMin": 2, "bMax": 9, "qMin": 10, "qMax": 99 }
+      ]
+    },
+    {
+      "slug": "mixed-operations-worksheets",
+      "op": "mixed",
+      "title": "Mixed Operations Worksheets",
+      "emoji": "🔢",
+      "grade": "Grade 2 – Grade 5",
+      "desc": "Free printable mixed math worksheets — addition, subtraction and multiplication together — with answer keys. Set the range and count, then print or save as a PDF.",
+      "blurb": "Printable mixed-practice sheets that blend addition, subtraction and multiplication in one worksheet, so kids have to spot the operation before they solve. Pick a difficulty, set the count, and print with an answer key.",
+      "skill": "Reinforces flexible recall across the three operations by mixing them on one page. The 'to 20' set fits Grades 2–3; 'to 100' fits Grades 3–5.",
+      "levels": [
+        { "value": "to20", "label": "Numbers to 20", "min": 0, "max": 20, "default": true },
+        { "value": "to100", "label": "Numbers to 100", "min": 0, "max": 100 }
+      ]
+    },
+    {
+      "slug": "times-tables-worksheets",
+      "op": "times",
+      "title": "Times Tables Worksheets",
+      "emoji": "🔟",
+      "grade": "Grade 2 – Grade 4",
+      "desc": "Free printable times tables worksheets with answer keys. Practice a single table 1–12 or a mixed set, set the count, then print or save as a PDF.",
+      "blurb": "Printable times-table practice. Choose one table to drill — the 7 times table walks 7×1 through 7×12 in order — or a mixed set that jumps between tables. Set how many problems and print with a matching answer key.",
+      "skill": "Cements multiplication tables 1–12 through focused, repeated practice. Ideal for Grades 2–4 memorizing facts one table at a time before mixing them.",
+      "levels": [
+        { "value": "mixed", "label": "Mixed tables (1–12)", "table": 0, "default": true },
+        { "value": "t2", "label": "2 times table", "table": 2 },
+        { "value": "t3", "label": "3 times table", "table": 3 },
+        { "value": "t4", "label": "4 times table", "table": 4 },
+        { "value": "t5", "label": "5 times table", "table": 5 },
+        { "value": "t6", "label": "6 times table", "table": 6 },
+        { "value": "t7", "label": "7 times table", "table": 7 },
+        { "value": "t8", "label": "8 times table", "table": 8 },
+        { "value": "t9", "label": "9 times table", "table": 9 },
+        { "value": "t10", "label": "10 times table", "table": 10 },
+        { "value": "t11", "label": "11 times table", "table": 11 },
+        { "value": "t12", "label": "12 times table", "table": 12 }
+      ]
+    }
+  ]
+}
