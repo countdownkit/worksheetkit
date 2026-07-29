@@ -168,7 +168,21 @@ for (const t of TYPES) {
   <h2 id="tables">Times tables</h2>
   ${grid(TYPES.filter(t => t.op === "times").map(typeLink))}
   <div class="ad-slot no-print">Advertisement</div>
-  <div class="prose"><p>These are working worksheets, not static template downloads: the problems you see on each page are the ones that print, and the answers are computed — never faked. Change the difficulty or count and the sheet regenerates instantly; hit "New problems" for a fresh set every time you need one. The print stylesheet strips the site chrome so only the worksheet lands on paper, and the answer key prints on its own page.</p></div>`;
+  <div class="prose"><p>These are working worksheets, not static template downloads: the problems you see on each page are the ones that print, and the answers are computed — never faked. Change the difficulty or count and the sheet regenerates instantly; hit "New problems" for a fresh set every time you need one. The print stylesheet strips the site chrome so only the worksheet lands on paper, and the answer key prints on its own page.</p></div>
+  <div class="prose">
+    <h2>How to use these worksheets</h2>
+    <p>Every worksheet works the same way: pick a skill from the lists above and the page opens with a full sheet of problems already generated and ready to print. There is nothing to download and no account to create. Teachers use the sheets for in-class practice and homework; parents use them for extra drills and review at home.</p>
+    <p><b>Choosing difficulty.</b> Each skill has a "Difficulty / range" menu that sets the numbers involved. Addition and subtraction run from sums or differences within 10 up to 3-digit problems; multiplication goes from facts 0–10 through 2-digit by 1-digit; division stays to whole-number answers with no remainders; and times tables can drill a single table from 1 to 12 or mix them. Match the range to the grade — smaller numbers for early practice, larger ones as fluency grows. The "Problems" menu sets how many questions land on the sheet: 15, 20, 25 or 30.</p>
+    <p><b>Getting a fresh sheet.</b> Press "New problems" to swap in a brand-new set at the same difficulty. Because each set differs, you can print several sheets from one skill for repeated drills or a quick warm-up without ever handing out the same page twice.</p>
+    <p><b>Using the answer key.</b> Set "Answer key" to "Show" to reveal a matching key with every problem worked out. When you print, the key starts on its own page, so you can give out the worksheet and keep the answers, or print both to check work side by side. Every answer is calculated from the problem, so it is always correct.</p>
+    <p><b>Printing or saving a PDF.</b> Click "Print worksheet." To save a PDF instead of printing on paper, choose "Save as PDF" as the destination in your browser's print dialog — nothing to install.</p>
+    <h2>Frequently asked questions</h2>
+    <p><b>Can I make a new set of problems?</b> Yes. The "New problems" button generates a fresh set instantly, as many times as you like, at whatever difficulty you have selected.</p>
+    <p><b>Is there an answer key?</b> Yes — switch "Answer key" to "Show." It prints on a separate page from the worksheet so answers stay hidden until you want them.</p>
+    <p><b>Is it free? Do I need to sign up?</b> Everything is free, with no signup, login, or download. Open a page and print.</p>
+    <p><b>How do I pick the right level?</b> Use the difficulty menu to match the grade, then lower the range if problems feel too hard or raise it once they come easily.</p>
+    <p><b>Can I save it as a PDF?</b> Yes — choose "Save as PDF" as the printer in the print dialog to keep a digital copy instead of paper.</p>
+  </div>`;
   writePage(`/`, layout({ title, desc, urlPath: `/`, h1: `Free Printable Math Worksheets`, body }));
 }
 
