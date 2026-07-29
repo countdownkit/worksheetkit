@@ -63,7 +63,7 @@ function layout({ title, desc, urlPath, h1, body }) {
 </main>
 <footer class="site-foot no-print"><div class="wrap">
   <a href="${BASE}/">Home</a><a href="${BASE}/#operations">Operations</a><a href="${BASE}/#tables">Times tables</a>
-  <span>· ${SITE} — free printable math worksheets with answer keys. No downloads, no signups: generate and print. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>. · <a href="https://elevatedprogress.com/privacy/">Privacy Policy</a></span>
+  <span>· ${SITE} — free printable math worksheets with answer keys. No downloads, no signups: generate and print. Part of <a href="https://elevatedprogress.com/">Elevated Progress</a>. · <a href="https://elevatedprogress.com/about/">About</a> · <a href="https://elevatedprogress.com/contact/">Contact</a> · <a href="https://elevatedprogress.com/privacy/">Privacy Policy</a></span>
 </div></footer>
 <script src="${BASE}/gen.js"></script>
 <script src="${BASE}/tool.js" defer></script>
